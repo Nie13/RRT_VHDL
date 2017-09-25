@@ -1,38 +1,37 @@
-Unable to capture context for thread 14584 in process 14912, can not generate back trace
-Unable to capture context for thread 4984 in process 14912, can not generate back trace
-Unable to capture context for thread 14980 in process 14912, can not generate back trace
-Exception at PC 0x00007FFED2DEBB93
+Unable to capture context for thread 14356 in process 9344, can not generate back trace
+Unable to capture context for thread 14692 in process 9344, can not generate back trace
+Exception at PC 0x00007FFEC8C5BB93
 Printing stacktrace...
 
-[0]  [0x00007FFED2DEBB93]
-[1]  [0x00007FFED2DEBB93]
-[2]  [0x00007FFED2DEB4A1]
-[3]  [0x00007FFED2DEB3EF]
-[4]  [0x00007FFED2DD19FE]
-[5]  [0x00007FFED2DD0ED1]
-[6]  [0x00007FFED2DD0D76]
-[7]  [0x00007FFED2D779F6]
-[8]  [0x00007FFED2D67AFB]
-[9]  [0x00007FFED2E8E90A]
-[10]  [0x00007FFED2EA9F87]
-[11]  [0x00007FFED2EAA05F]
+[0]  [0x00007FFEC8C5BB93]
+[1]  [0x00007FFEC8C5BB93]
+[2]  [0x00007FFEC8C5B4A1]
+[3]  [0x00007FFEC8C5B3EF]
+[4]  [0x00007FFEC8C419FE]
+[5]  [0x00007FFEC8C40ED1]
+[6]  [0x00007FFEC8C40D76]
+[7]  [0x00007FFEC8BE79F6]
+[8]  [0x00007FFEC8BD7AFB]
+[9]  [0x00007FFEC8CFE90A]
+[10]  [0x00007FFEC8D19F87]
+[11]  [0x00007FFEC8D1A05F]
 [12] (BaseThreadInitThunk+0x14) [0x00007FFF3C068364]
 [13] (RtlUserThreadStart+0x21) [0x00007FFF3C5970D1]
 Done
-Exception at PC 0x00007FFED2AF1A52
-Attemped to write at address 0x00007FFF0A78ABA4
+Exception at PC 0x00007FFEC8961A52
+Attemped to write at address 0x00007FFF0ED0ABA4
 Printing stacktrace...
 
-[0]  [0x00007FFED2AF1A52]
-[1]  [0x00007FFED2AF1A52]
-[2]  [0x00007FFED2AF1AD4]
-[3]  [0x00007FFED2C33FF7]
-[4]  [0x00007FFED2B19128]
-[5]  [0x00007FFED2DCDFB9]
-[6]  [0x00007FFED2F9EF23]
-[7]  [0x00007FFED2EAB06B]
-[8]  [0x00007FFED2EA08AF]
-[9]  [0x00007FFED2EA0A32]
+[0]  [0x00007FFEC8961A52]
+[1]  [0x00007FFEC8961A52]
+[2]  [0x00007FFEC8961AD4]
+[3]  [0x00007FFEC8AA3FF7]
+[4]  [0x00007FFEC8989128]
+[5]  [0x00007FFEC8C3DFB9]
+[6]  [0x00007FFEC8E0EF23]
+[7]  [0x00007FFEC8D1B06B]
+[8]  [0x00007FFEC8D108AF]
+[9]  [0x00007FFEC8D10A32]
 [10] (RtlDeactivateActivationContextUnsafeFast+0x1bf) [0x00007FFF3C55A35F]
 [11] (LdrShutdownProcess+0x14b) [0x00007FFF3C53806B]
 [12] (RtlExitUserProcess+0xb4) [0x00007FFF3C537D94]

@@ -14,8 +14,11 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package vl.vl_types
 Compiling module xil_defaultlib.glbl
-Compiling module simprims_ver.OBUF
 Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT6
 Compiling module xil_defaultlib.RRT
 Compiling architecture behavioral of entity xil_defaultlib.rrt_tb
 Built simulation snapshot RRT_TB_time_synth

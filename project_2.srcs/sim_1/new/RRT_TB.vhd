@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineer: Nie13
 -- 
 -- Create Date: 09/18/2017 04:00:11 PM
 -- Design Name: 
@@ -36,18 +36,31 @@ entity RRT_TB is
 end RRT_TB;
 
 architecture Behavioral of RRT_TB is
-signal a, b: std_logic_vector (7 downto 0);
+signal a, b, c: std_logic_vector (31 downto 0);
 component RRT
-port (input: in std_logic_vector (7 downto 0);
-      output: out std_logic_vector (7 downto 0));
+port (a: in std_logic_vector (31 downto 0);
+      b: in std_logic_vector (31 downto 0);
+      c: out std_logic_vector (31 downto 0));
 end component;
 
 begin
-DUT: RRT port map(a, b);
+DUT: RRT port map(a, b, c);
 test: process
 begin
-a <= "11010100"; wait for 10ns;
-a <= "00100101"; wait for 10ns;
+a <= "11010100110101001101010011010100";
+b <= "00000000000000000000000000000001";
+wait for 10ns;
+b <= "00000000000000000000000000000010"; 
+wait for 10ns;
+a <= "00000000000000000000000000000001";
+b <= "00000000000000000000000000000111";
+wait for 10ns;
+b <= "00000000000000000000000000001111";
+wait for 10ns;
+b <= "00000000000000000000000111111110";
+wait for 10ns;
+b <= "10000000000000000000000000000001";
+wait for 10ns;
 end process;
 
 end Behavioral;
