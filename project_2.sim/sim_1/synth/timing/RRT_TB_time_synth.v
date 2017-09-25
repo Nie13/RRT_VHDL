@@ -1,7 +1,7 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-// Date        : Sun Sep 24 22:47:01 2017
+// Date        : Mon Sep 25 00:53:21 2017
 // Host        : l-THINK running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               C:/Users/l/Desktop/6463ADVHDes/code/project_2/project_2.sim/sim_1/synth/timing/RRT_TB_time_synth.v
@@ -19,12 +19,12 @@ module RRT
     b,
     c);
   input [31:0]a;
-  input [4:0]b;
+  input [31:0]b;
   output [31:0]c;
 
   wire [31:0]a;
   wire [31:0]a_IBUF;
-  wire [4:0]b;
+  wire [31:0]b;
   wire [4:0]b_IBUF;
   wire [31:0]c;
   wire [31:0]c_OBUF;
